@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Check HTML
-        run: tidy -m Doco/index.html
+        run: tidy -m Doco/odin-links-and-images/index.html
