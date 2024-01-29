@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"> <!--links to css-->
     <title>Links & Images</title>
 </head>
 <body>
@@ -15,14 +16,16 @@
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
-    <p>this is <strong>bold</strong> yes</p>
-    <p>this is <em>italic</em> yes</p>
-    <ul>
-      <li>unordered list item 1</li>
-      <li>unordered list item 2</li>
-      <li>unordered list item 3</li>
-    </ul>
+    <div> <!--div groups a bunch-->
+      <h6>Heading 6</h6>
+      <p>this is <strong>bold</strong> yes</p>
+      <p>this is <em>italic</em> yes</p>
+      <ul>
+        <li>unordered list item 1</li>
+        <li>unordered list item 2</li>
+        <li>unordered list item 3</li>
+      </ul>
+    </div>
     <ol>
       <li>ordered list item 1</li>
       <li>ordered list item 2</li>
@@ -35,10 +38,10 @@
     <!-- Relative links  -->
     <a href="about.html">about page</a> <!-- This will open the link in the same page -->
     <!-- Images -->
-    <img src="https://deadtalknews.com/wp-content/uploads/alien2-930x620.png" alt="Alien Poster 1979"> <!-- internet image.  -->
-    <img src="./img/Alien-Movie-Poster-1979.jpg" alt="Alien poster"> <!--local image. alt is used to describe an image and will be presented if the image cant load.  -->
+    <img src="https://deadtalknews.com/wp-content/uploads/alien2-930x620.png" alt="Alien Poster 1979" class="firstimage"> <!-- internet image.  -->
+    <img src="./img/Alien-Movie-Poster-1979.jpg" alt="Alien poster" class="secondimage"> <!--local image. alt is used to describe an image and will be presented if the image cant load.  -->
     <!-- best practice is to specify height and width -->
-    <img src="./img/alienspecies.jpg" alt="Alien Specie" width="1280" height="720">
+    <img src="./img/alienspecies.jpg" alt="Alien Specie" width="1280" height="720" class="thirdimage"> <!-- use class for css targeting-->
 </body>
 </html>
 

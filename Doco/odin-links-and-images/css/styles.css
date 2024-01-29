@@ -1,0 +1,38 @@
+/* grab elements like div, p, headers, lists and give them some style */
+div {
+    color: white;
+    background-color: black;
+}
+
+p {
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+ol {
+    color: yellow;
+}
+
+.firstimage {
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+.secondimage {
+    border: 5px solid violet;
+    border-radius: 50%;
+}
+
+.thirdimage {
+    border: 5px solid orange;
+    border-radius: 50%;
+}
